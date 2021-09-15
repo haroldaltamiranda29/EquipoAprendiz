@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Academy Choucair" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-14T18:25:25" hostname="CHMEP220RQ93" time="45.596">
+<testsuite name="Academy Choucair" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-15T17:13:53" hostname="CHMEP220RQ93" time="44.708">
   <properties/>
-  <testcase name="Search for a automation course" classname="Academy Choucair" time="45.596"/>
+  <testcase name="Search for a automation course" classname="Academy Choucair" time="44.708"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[sep 14, 2021 1:25:25 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[sep 15, 2021 12:13:54 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 11027
+Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 32723
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-sep 14, 2021 1:25:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+sep 15, 2021 12:13:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 [Test worker] INFO net.serenitybdd.core.Serenity - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  

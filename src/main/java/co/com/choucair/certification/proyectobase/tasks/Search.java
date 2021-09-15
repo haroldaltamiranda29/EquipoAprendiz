@@ -24,14 +24,15 @@ public class Search implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                WaitUntil.the(SearchCoursePage.BUTTON_UC, isVisible()).forNoMoreThan(3).seconds(),
                 Click.on(SearchCoursePage.BUTTON_UC),
                 Enter.theValue(course).into(SearchCoursePage.INPUT_COURSE),
                 Click.on(SearchCoursePage.BUTTON_GO),
-                WaitUntil.the(SearchCoursePage.SELECT_COURSE, isVisible()).forNoMoreThan(3).seconds(),
-                Click.on(SearchCoursePage.SELECT_COURSE),
-                WaitUntil.the(SearchCoursePage.NAME_COURSE, isVisible()).forNoMoreThan(5).seconds()
+                Click.on(SearchCoursePage.SELECT_COURSE)
         );
-
+        try {
+            Thread.sleep (5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
